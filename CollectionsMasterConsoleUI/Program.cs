@@ -123,7 +123,7 @@ namespace CollectionsMasterConsoleUI
         {
             for (int i = 0; i < numberList.Count; i++)
             {
-                if (numberList[i] % 2 == 0)
+                if (numberList[i] % 2 != 0)
                 {
                     numberList.Remove(numberList[i]);
                 }
